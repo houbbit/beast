@@ -1,0 +1,141 @@
+
+
+                                B  E  A  S  T
+
+	The object is to eliminate the invading BEASTS.  This is accomplished
+by squashing the beasts between two blocks.  You can "push" the lighter blocks
+around by moving against/into them.  If you move against a long row of
+blocks, the entire wall (row of blocks) will be pushed (moved).  If you push
+a block against a Beast, and there is a block behind the Beast, then the Beast
+is "squashed", and destroyed.  If a block isn't behind a Beast when you push
+the block against it, it isn't squashed, and stops you from pushing the
+blocks.
+
+	At higher levels of play, different obstacles will face you.  A
+detailed description of these obstacles (or options) and what they do/cause
+are discussed later.
+
+	To start play, just type:  BEAST.  If you know what level of play
+you would like to start at, type:  BEAST L.  Where "L" can be any letter.
+The default letter of play (When no letter is specified) is "E".  This is
+a "Novice" level of play.  The following is a brief description of the
+different levels of playing:
+
+A,B,C:		Are "EASY" levels.  For people not too familiar with arcade
+	style games, or those not at ease using the cursor keys.
+D,E,F,G:	Are "NOVICE" levels.  For beginning players of the game.
+H,I,J,K:	Are "HARD" levels.  These should be played after completing
+	or winning one of the novice levels.  The hard levels introduce
+	new and different beasts, and a longer game.
+L,M,N,O:	Are titled the "UNKNOWN" levels.  These are levels which
+	can be defined by the player.  And because of this, the actual
+	skill level is not known.  The instructions on how to use and
+	define these levels is described later.
+P,Q,R,S:	Are "ADVANCED" levels.  More and more beasts of different
+	varieties will be seen at these levels.  Try these after becoming
+	fairly good at levels I,J, or K.  The beasts also become smarter,
+	so watch out!
+T,U,V,W:	Are "EXPERT" levels.  Beasts are more numerous, and
+	quicker.  The number of levels to play before winning is also
+	increased greatly.
+X,Y,Z:		Are "PRO" levels.  These are also commonly known as the
+	levels for 'crazy' people.  If you win at any of these levels,
+	you are then a true "MASTER OF THE BEASTS".
+
+
+			B E A S T      O P T I O N ' S
+
+  OPTION		EXPLANATION
+------------------------------------------------------------------------------
+Pull Blocks		While the space bar is held down, the block behind
+		you will be PULLED along behind you.  (Handy for getting
+		blocks off the edges of the playing field.)
+Speed Game Up		As time goes by, the game will speed up, and the
+		Beasts will also speed up.  (Watch out, the longer you play,
+		the faster the Beasts move!)
+Electric Blocks		This makes all SOLID blocks electrified.  A normal
+		block which is pushed into an electric block is turned into
+		dust, and eliminated.  If you touch an electric block, you
+		are also turned into dust (Killed) - so be careful!
+		NOTE:  The outer walls will not kill you if you ran into it.
+Eggs			Eggs are dormant for awhile, then they hatch into
+		a crazy type of Beast.  This Beast can push blocks just like
+		you can.  If you are between two blocks, it could squash
+		you!  NOTE:  It can also squash other Beasts, or push blocks
+		into Electric blocks.
+
+
+			    B E A S T    H E L P
+------------------------------------------------------------------------------
+
+The following is a brief description of the keys you can use in BEAST:
+Keys before game begins:  (After the game has been executed)
+  <any letter>	  = Select level letter and show options for that level.
+  "1"             = Select single player game (Only RIGHT player)
+  "2"             = Select dual player game.
+  <F1>		  = Show current HIGH Scores
+  <F1> with <Del> = Reset High Scores in the high score table.
+  <F2>            = Set Speed of game.
+  <F7>		  = Exit game
+  <F8>		  = IBM 3270 ON/OFF:  Uses different KeyBoard routine.
+  <F9>		  = Sound ON/OFF
+
+Keys during play:  (While the beasts are attacking you)
+  <arrow keys>	  = Move the player (Auto repeat until key is released)
+	  left arrow or numeric 4:  Move player left
+	  down arrow or numeric 2:  Move player down
+	  'End' key  or numeric 1:  Move player diagonal left/down
+          NOTE:  holding two keys down simultaneously causes diagonal moving
+		IE:  left arrow and up arrow held would cause up/left diagonal.
+  <Space Bar>	  = Pull block while held down  (not in 3270 mode).
+  <ESC>		  = Escape ... Puts you randomly on the board and:
+	will also subtract 10 points from your score. (If you have 10 points)
+  <NUM_LOCK>	  = Pause game ON/OFF.  Stop game until hit again.
+  <F7>		  = Abort game, and allow new level of play to be selected.
+  <F9>		  = Sound ON/OFF
+  <Ctrl-F1>	  = Go to shell.
+  Ctrl-BREAK	  = Abort game, Clear screen, and go to DOS/shell.
+
+Keys during Level Definition:  (Defining level L,M,N, or O)
+  <up arrow>	  = Move cursor to option above current option.
+  <Y>		  = Set current option to YES.  (If it is a Yes/No option)
+  <N>		  = Set current option to No.   (If it is a Yes/No option)
+  <number>	  = Set option to number entered.  Some options only allow
+	a single number, others allow 2 digit numbers.  If the number is
+	invalid, then it will be ignored.  (IE.  If you type in 99 for the
+	initials number of beasts, it will be ignored.)
+  <ESC>		  = Leave option setting/defining mode.
+  <other key>	  = Move cursor to next option below.  (If the cursor is at
+	at the bottom, it will wrap to the top option.)
+
+
+		    U N K N O W N   L E V E L   O P T I O N S
+-------------------------------------------------------------------------------
+
+Options which can be defined, and what they can be defined to:
+  INITIAL BEASTS:	How many beasts are on the board when the game starts.
+  SUPER BEAST RATIO:	The ratio of Super beasts to normal beasts.  This
+	can be set to 0,1,2,3, or 4 where 0=NONE, 1=1 out of 8, 2=1 out of 4,
+	3=1 out of 2, and 4=ALL.  Selecting 0 would mean that NO super beasts
+	would ever be in this level.  Selecting 2 would mean to have every
+	fourth beast be a super beast, or 1/4 of all the beasts would be
+	super beasts.
+  EGGS:			How many eggs to start of this game with.  Legal
+	numbers are 0 to 20.  If 0 is selected, eggs will never appear!
+	Any number above 0 will cause eggs to start, and multiply.
+  PULL BLOCKS:		This is a YES/NO option.  YES means that when the
+	space bar is held down, the player will pull the block which is behind
+	him.  NO means that the player can't pull blocks (Which is harder).
+  AUTO SPEED-UP:	This is a YES/NO option.  YES means that as time goes
+	by, the game will speed up, and the beasts speed will also speed up.
+	NO means that the games speed will stay fairly constant.
+  EXPLOSIVE BLOCKS:	This is a YES/NO option.  YES means that all solid
+	blocks are explosive, and will turn anything touching them to dust.
+	NO means that solid blocks are just solid.  NOTE:  At higher levels
+	of play, it helps to be able to "dust" a few normal blocks against
+	an explosive block when they get in your way.
+  WINNING LEVEL:	The last numeric level to be completed before you
+	win the game.  legal entries are 1 to 99.
+  HATCHING RATE:	The average time it takes an egg to hatch.  Legal
+	numbers are 0 to 99.  If you enter 30, it takes about 40-50 second
+	for the eggs to hatch, entering a 0 is almost immediate hatching.
